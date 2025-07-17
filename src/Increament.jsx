@@ -11,9 +11,8 @@ const Increament=()=>{
 
 const test=useMemo(function demo(){
     console.log("hello");
+    
 },[count]);
-
-
 
    const increase=()=>{
     setItem(Item+1);
